@@ -130,6 +130,7 @@ jobs:
           ignore-unfixed: true
           vuln-type: "os,library"
           severity: "CRITICAL,HIGH"
+          trivy-version: "0.57.1"
 
       - name: Push Docker image
         uses: docker/build-push-action@v5
